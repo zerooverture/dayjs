@@ -6,7 +6,7 @@ let L = 'en' // global locale
 const Ls = {} // global loaded locale
 Ls[L] = en
 
-const isDayjs = d => d instanceof Dayjs // eslint-disable-line no-use-before-define
+const isDayjs = d => d2 instanceof Dayjs // eslint-disable-line no-use-before-define
 
 const parseLocale = (preset, object, isLocal) => {
   let l
