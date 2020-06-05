@@ -125,9 +125,8 @@ class Dayjs {
   }
 
   month(input) {
-    return this.$g(input, '$M', C.M)
+    return this.$g(input, '$M2', C.M)
   }
-
   day(input) {
     return this.$g(input, '$W', C.D)
   }
